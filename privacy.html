@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chính sách quyền riêng tư của tiện ích Tool Lỏ.">
+  <title>Chính sách quyền riêng tư – Tool Lỏ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Tool Lỏ – Trang chủ">
+      <span class="brand-mark" aria-hidden="true">T</span>
+      <span>Tool Lỏ</span>
+    </a>
+    <nav aria-label="Điều hướng chính">
+      <a href="index.html">Trang chủ</a>
+      <a href="privacy.html" aria-current="page">Quyền riêng tư</a>
+      <a href="terms.html">Điều khoản</a>
+    </nav>
+  </header>
+
+  <main class="document">
+    <p class="eyebrow">Privacy Policy</p>
+    <h1>Chính sách quyền riêng tư</h1>
+    <p class="document-meta">Cập nhật lần cuối: 23/09/2026</p>
+    <p class="lead">Chính sách này mô tả dữ liệu mà Tool Lỏ xử lý, mục đích sử dụng và các lựa chọn kiểm soát dành cho người dùng.</p>
+
+    <section>
+      <h2>1. Dữ liệu được xử lý</h2>
+      <ul>
+        <li><strong>Lịch sử duyệt web:</strong> chỉ được đọc khi người dùng chủ động yêu cầu nhập lịch sử để tạo danh sách URL.</li>
+        <li><strong>Nội dung trang web:</strong> văn bản, liên kết và cấu trúc trang được xử lý trên thiết bị để nhận diện nội dung chính, tô màu liên kết và đánh dấu keyword do người dùng cấu hình.</li>
+        <li><strong>Dữ liệu cấu hình:</strong> danh sách URL, Group, Company, keyword, Regex, màu sắc, quy tắc website và tùy chọn giao diện.</li>
+        <li><strong>Bản sao lưu Google Drive tùy chọn:</strong> khi người dùng chủ động kết nối, extension gửi một bản sao dữ liệu cấu hình vào thư mục ứng dụng ẩn <code>appDataFolder</code> trong tài khoản Google của người dùng.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Mục đích sử dụng</h2>
+      <p>Dữ liệu chỉ được dùng để cung cấp các chức năng người dùng chủ động sử dụng, bao gồm nhập và xử lý URL, sao chép tiêu đề hoặc URL, tô màu liên kết, đánh dấu keyword, thống kê kết quả, sao lưu/khôi phục cấu hình và Google Drive Sync tùy chọn.</p>
+    </section>
+
+    <section>
+      <h2>3. Lưu trữ và truyền dữ liệu</h2>
+      <ul>
+        <li>Tool Lỏ không vận hành máy chủ để thu thập dữ liệu người dùng.</li>
+        <li>Dữ liệu hoạt động được xử lý cục bộ trong trình duyệt và lưu bằng các API lưu trữ của extension.</li>
+        <li>Một số tùy chọn nhỏ có thể được đồng bộ bằng cơ chế đồng bộ của Chrome hoặc Edge nếu người dùng bật tính năng này trong trình duyệt.</li>
+        <li>Google Drive Sync mặc định tắt. Khi được bật, dữ liệu truyền trực tiếp giữa extension và Google Drive API, không đi qua máy chủ của Tool Lỏ.</li>
+        <li>Access token chỉ được giữ trong bộ nhớ phiên của extension và không được đưa vào file Export hoặc bản sao lưu Drive.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Quyền truy cập Google Drive</h2>
+      <p>Tool Lỏ chỉ yêu cầu scope <code>https://www.googleapis.com/auth/drive.appdata</code>. Quyền này cho phép extension xem và quản lý dữ liệu cấu hình do chính Tool Lỏ tạo trong vùng ứng dụng ẩn. Extension không yêu cầu quyền đọc hoặc quản lý các file thông thường trong My Drive.</p>
+      <p>Việc sử dụng thông tin nhận được từ Google APIs tuân thủ <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, bao gồm các yêu cầu Limited Use.</p>
+    </section>
+
+    <section>
+      <h2>5. Chia sẻ và bán dữ liệu</h2>
+      <p>Tool Lỏ không bán dữ liệu người dùng và không chuyển dữ liệu cho bên thứ ba vì mục đích quảng cáo, phân tích hành vi, cho vay hoặc xác định khả năng thanh toán. Google chỉ nhận dữ liệu khi người dùng chủ động sử dụng Google Drive Sync.</p>
+    </section>
+
+    <section>
+      <h2>6. Thời gian lưu giữ và xóa dữ liệu</h2>
+      <p>Dữ liệu cục bộ được giữ cho đến khi người dùng xóa trong extension, thay thế bằng chức năng Import, xóa dữ liệu trình duyệt hoặc gỡ cài đặt extension. Người dùng có thể ngắt kết nối Google Drive trong Options. Bản sao trong vùng dữ liệu ứng dụng có thể được xóa từ phần quản lý ứng dụng của Google Drive hoặc theo cơ chế quản lý dữ liệu do Google cung cấp.</p>
+    </section>
+
+    <section>
+      <h2>7. Quyền của extension</h2>
+      <p>Các quyền được khai báo chỉ phục vụ quản lý URL, clipboard, lịch sử theo yêu cầu, màu liên kết, Highlighter, Full Page, Side Panel và Google Drive Sync. Quyền <code>identity</code> chỉ dùng để mở luồng OAuth; extension không đọc mật khẩu Google. Tool Lỏ không tải hoặc thực thi mã JavaScript/Wasm từ xa.</p>
+    </section>
+
+    <section>
+      <h2>8. Bảo mật</h2>
+      <p>Tool Lỏ áp dụng nguyên tắc local-first, quyền truy cập tối thiểu và tránh lưu access token lâu dài. Không có phương thức truyền hoặc lưu trữ điện tử nào an toàn tuyệt đối, nhưng phạm vi dữ liệu và quyền truy cập được giới hạn theo chức năng cần thiết.</p>
+    </section>
+
+    <section>
+      <h2>9. Thay đổi chính sách</h2>
+      <p>Nếu cách xử lý dữ liệu thay đổi, chính sách này sẽ được cập nhật trước hoặc đồng thời với phiên bản extension liên quan. Ngày cập nhật gần nhất được ghi ở đầu trang.</p>
+    </section>
+
+    <section>
+      <h2>10. Liên hệ</h2>
+      <p>Mọi câu hỏi về quyền riêng tư có thể gửi tới <a href="mailto:neo.nelson.007@gmail.com">neo.nelson.007@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Tool Lỏ. Nhà xuất bản: Neo Nelson.</p>
+    <p><a href="index.html">Home</a> · <a href="terms.html">Terms</a></p>
+  </footer>
+</body>
+</html>
